@@ -6,25 +6,31 @@ html, body {
       max-width: 1920px;
       font-family: Arial; Helvetica;
 }
-.navigation {
+nav {
     margin: 0;
     padding: 0;
     width: 100%;
     height: 60px;
     background: #344069;
 }
-nav .logo {
-    margin-left: 550px;
+.logo {
+    margin-left: 390px;
     display: flex;
     float: left;
+    color: #fff;
+    line-height: 60px;
+    font-size: 28px;
 }
-nav .menu {
-    margin-right: 400px;
+.menu {
+    margin-right: 430px;
 }
-nav li {
+
+.menu li {
     margin-right: 10px;
     display: flex;
-    float: right;    
+    float: right;  
+    line-height: 60px;
+    color: #fff;        
 }
 .class_container {
     text-align: center;
